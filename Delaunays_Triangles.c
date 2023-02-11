@@ -321,7 +321,7 @@ int main()
 
                 if((n1!=n2) && (n1!=n3) && (n2!=n3) && (ans_colinear!=1))
                 {
-                    // printf("\n============================================ current nodes [%d],[%d],[%d] ============================================\n",n1+1,n2+1,n3+1);
+                    // printf("\n===== current nodes [%d],[%d],[%d] =====\n",n1+1,n2+1,n3+1);
 
                     int ans=anyNodeLiesInside(nodes,numNodes,n1,n2,n3);
 
